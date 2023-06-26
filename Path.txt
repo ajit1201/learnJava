@@ -1,0 +1,14 @@
+
+
+Pattern
+
+
+Array
+    1. declaration
+    2. Array as function
+    3. Leaniear search
+    4. Binary search
+    5. Reverse an Array
+    6. find number of --> print --> print max sum of sub Array
+    7. Tapping rainwater 
+    8. best time to bus stocks
