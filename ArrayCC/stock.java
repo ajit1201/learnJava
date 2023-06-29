@@ -1,7 +1,7 @@
 import java.util.*;
 public class stock {
     public static void main(String[] args) {
-        int arr[] = { 3, 1, 5, 6, 3, 4 };
+        int arr[] = { 10, 1, 5, 6, 3, 4 };
         System.out.println(maxProfit(arr));
     }
 
@@ -15,7 +15,8 @@ public class stock {
             if(arr[i] < minPrice)
             {
                 minPrice = arr[i];
-                maxProfit = (maxProfit < maxPrice - minPrice)?(maxPrice - minPrice):maxProfit;
+                // maxProfit = (maxProfit < maxPrice - minPrice)?(maxPrice - minPrice):maxProfit;\
+                maxProfit = Math.max(maxProfit, maxPrice - minPrice);
             }
         }
         return maxProfit;
