@@ -38,7 +38,7 @@ public class basicArray {
 
     //block two - returnin an array by function
     //prime number upto n
-    int prime[] = prime(50);
+    
     }
 
 }
